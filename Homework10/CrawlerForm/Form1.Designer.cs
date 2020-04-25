@@ -46,12 +46,12 @@
             this.index,
             this.URL,
             this.status});
-            this.dgvResult.Location = new System.Drawing.Point(13, 104);
+            this.dgvResult.Location = new System.Drawing.Point(13, 89);
             this.dgvResult.Margin = new System.Windows.Forms.Padding(4);
             this.dgvResult.Name = "dgvResult";
             this.dgvResult.RowHeadersWidth = 51;
             this.dgvResult.RowTemplate.Height = 23;
-            this.dgvResult.Size = new System.Drawing.Size(791, 267);
+            this.dgvResult.Size = new System.Drawing.Size(791, 282);
             this.dgvResult.TabIndex = 3;
             // 
             // index
@@ -124,11 +124,12 @@
             // lblInfo
             // 
             this.lblInfo.AutoSize = true;
-            this.lblInfo.Location = new System.Drawing.Point(31, 85);
+            this.lblInfo.Location = new System.Drawing.Point(13, 70);
             this.lblInfo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(0, 15);
+            this.lblInfo.Size = new System.Drawing.Size(82, 15);
             this.lblInfo.TabIndex = 6;
+            this.lblInfo.Text = "爬虫未启动";
             // 
             // Form1
             // 

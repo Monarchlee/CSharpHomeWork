@@ -84,9 +84,9 @@ namespace CrawlerForm
                     try
                     {
                         string html = DownLoad(url); // 下载
+                        urls[url] = true;
                         PageDownloaded(this, url, "success");
                         Parse(html, url);//解析,并加入新的链接
-                        urls[url] = true;
                         Task.Run(() => FissionStart());
                     }
                     catch (Exception ex)
